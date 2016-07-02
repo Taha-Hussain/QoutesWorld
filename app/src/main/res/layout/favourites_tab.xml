@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/favourites"
+            style="@style/Category_First_LinearLayout">
+
+            <LinearLayout style="@style/Category_Second_LinearLayout">
+
+                <LinearLayout
+                    android:id="@+id/Love_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorRed">
+
+                    <ImageView
+
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:src="@drawable/category_love" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Love"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Motivation_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorOrangeYellow">
+
+                    <ImageView
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:src="@drawable/category_motivational" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Motivational"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/Category_Second_LinearLayout">
+
+                <LinearLayout
+                    android:id="@+id/Education_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorGreen">
+
+                    <ImageView
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:src="@drawable/category_educational" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Educational"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Funny_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorAccent">
+
+                    <ImageView
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:src="@drawable/category_funny" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Funny"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/Category_Second_LinearLayout">
+
+                <LinearLayout
+                    android:id="@+id/Inspirational_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorBlue">
+
+                    <ImageView
+
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:src="@drawable/category_success" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Success"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Life_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorPurple">
+
+                    <ImageView
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:src="@drawable/category_life" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Life"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/Category_Second_LinearLayout">
+
+                <LinearLayout
+                    android:id="@+id/Work_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorLightPurple">
+
+                    <ImageView
+
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:src="@drawable/category_friendship" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Friendship"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/Friendship_Favourite_button"
+                    style="@style/Category_Third_LinearLayout"
+                    android:background="@color/colorLightBlue">
+
+                    <ImageView
+                        style="@style/Category_ImageView"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:src="@drawable/category_work" />
+
+                    <TextView
+                        style="@style/Category_TextView"
+                        android:text="Work"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

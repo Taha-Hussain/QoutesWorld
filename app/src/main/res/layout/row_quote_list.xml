@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ticktech.qoutesworld.QuoteWorld.AllQuoteListActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGrey"
+    android:weightSum="10">
+<RelativeLayout
+    android:layout_weight="8"
+    style="@style/QuoteList_First_LinearLayout"
+    android:gravity="center_horizontal|center_vertical">
+    <RelativeLayout
+        android:id="@+id/background_color"
+        android:layout_width="match_parent"
+        android:background="@color/colorRed"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="965px">
+
+    </RelativeLayout>
+    <!--<ImageView-->
+        <!--android:id="@+id/background_image"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:src="@drawable/love_background"-->
+        <!--android:scaleType="centerCrop" />-->
+    <TextView
+        android:id="@+id/quote_Category_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:text="Category"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/quote_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey How are you?"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/quote_authorName_TextView"
+        android:layout_alignBottom="@+id/background_color"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taha Hussain"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/quote_favourite_button"
+            android:background="@color/colorWhite"
+            android:src="@drawable/like_before"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            />
+        <!--<ImageButton-->
+            <!--android:background="@color/colorWhite"-->
+            <!--android:src="@drawable/bookmark_before"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="1dp"-->
+             <!--/>-->
+        <ImageButton
+            android:id="@+id/quote_share_button"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@color/colorWhite"
+            android:src="@drawable/share"
+            android:onClick="ShareQuote"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+</LinearLayout>
+

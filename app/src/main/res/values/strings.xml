@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Qoutes World</string>
+
+     <string name="quote_share">%1$s \n \n %2$s</string>
+</resources>
